@@ -44,9 +44,7 @@ namespace PromotionENgine
         {
             int skuAQuantity = 0, skuBQuantity = 0;
             int skuCQuantity =0, skuDQuantity = 0;
-            //int Aset = 0;int BSet = 0;
-            ////int CDSet = 0, CSet = 0, DSet = 0;
-            //int reminder = 0;
+
             int skuAtotal = 0, skuBTotal = 0, skuCDTotal = 0, skuCTotal = 0, skuDTotal = 0, orderTotal = 0;
             foreach(var orders in orderSkuDetails)
             {
